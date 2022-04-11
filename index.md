@@ -368,7 +368,7 @@ of code below the Schedule `<h2>` header below with
 {% elsif site.carpentry == "lc" %}
 {% include lc/schedule.html %}
 {% elsif site.carpentry == "incubator" %}
-A precise schedule is yet to be established, please check back closer to the start of the workshop. The workshop will include regular breaks. Please contact the workshop organisers if you would like more information about the planned schedule.
+
 {% endif %}
 
 {% comment %}
