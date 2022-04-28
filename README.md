@@ -1,27 +1,13 @@
 [![Website](https://github.com/carpentries/workshop-template/actions/workflows/website.yml/badge.svg)](https://github.com/carpentries/workshop-template/actions/workflows/website.yml)
 
-# The Carpentries Workshop Template
+# Twitter with twarc: May, 2022
 
 This repository is for a pilot TWARC Workshop, made using The Carpentries' ([Software Carpentry][swc-site], [Data Carpentry][dc-site], and
 [Library Carpentry][lc-site]'s) template for creating websites for workshops.
 
-1. **Please _do not fork this repository directly on GitHub._** Instead, please use GitHub's
-   "template" function following [the instructions below](#creating-a-repository) to copy this
-   `workshop-template` repository and customize it for your workshop.
-
-2. Please *do your work in your repository's `gh-pages` branch*, since that is what is
+1. Please *do your work in your repository's `gh-pages` branch*, since that is what is
    [automatically published as a website by GitHub][github-project-pages].
 
-3. Once you are done, please also [let us know][email] the workshop URL. If this is a self-organised
-   workshop, you should also [fill in the self-organized workshop
-   form][self-organized-workshop-form] (if you have not already done so), so we can keep track of
-   all workshops. We build the list of workshops on our websites from the data included in your
-   `index.md` page. We can only do that if you [customize][customization] that page correctly *and*
-   let us know the workshop URL.
-
-If you run into problems,
-or have ideas about how to make this process simpler,
-please [get in touch](#getting-and-giving-help).
 The pages on [customizing your website][customization],
 the [FAQ][faq],
 and the [design notes][design] have more detail on what we do and why.
@@ -51,9 +37,6 @@ create a workshop website.
 If you are already familiar with Git, you can clone the repository to your desktop, edit `index.md`,
 `_config.yml`, and `schedule.html` following the instruction above there, and push your changes back to the repository.
 
-```shell
-git clone https://github.com/your_username/YYYY-MM-DD-site
-```
 
 In order to view your changes once you are done editing, if you have bundler installed (see the
 [installation instructions below](#installing-software)), you can preview your site locally with:
@@ -94,12 +77,6 @@ Click 'Edit' and add:
 
 This will help people find your website if they come to your repository's home page.
 
-### Update the content of the README file
-
-You can change the `README.md` file in your website's repository, which contains these instructions,
-so that it contains a short description of your workshop and a link to the workshop website.
-
-
 ## Additional Notes
 
 **Note:**
@@ -131,19 +108,6 @@ If you want to set up Jekyll so that you can preview changes on your own machine
 to GitHub, you must install the software described in the lesson example [setup
 instructions](https://carpentries.github.io/lesson-example/setup.html#jekyll-setup-for-lesson-development).
 
-## Setting Up a Separate Repository for Learners
-
-If you are teaching Git,
-you should create a separate repository for learners to use in that lesson.
-You should not have them use the workshop website repository because:
-
-* your workshop website repository contains many files that most learners don't need to see during
-  the lesson, and
-
-* you probably don't want to accidentally merge a damaging pull request from a novice Git user into
-  your workshop's website while you are using it to teach.
-
-You can call this repository whatever you like, and add whatever content you need to it.
 
 ## Getting and Giving Help
 
