@@ -52,14 +52,14 @@ pilot: true
 # Most workshops don't use extra pages. More information about extra
 # pages are included in the README:
 # https://github.com/carpentries/workshop-template#creating-extra-pages
-title: "Harvesting Twitter Data with Twarc"
+title: "Harvesting Twitter Data with twarc"
 
 #------------------------------------------------------------
 # Incubator workshop settings (only relevant for workshops teaching a lesson
 # in The Carpentries Incubator).
 #
 # For an Incubator workshop, uncomment the line below and add the URL of the lesson site.
-incubator_lesson_site: "https://ucsb-collaboratory.github.io/twarc_carpentry/"
+incubator_lesson_site: "https://ucsb-collaboratory.github.io/twitter-with-twarc/"
 #
 # For an Incubator workshop, uncomment the line below and add the URL of your pre-workshop survey
 incubator_pre_survey: "https://ucsb.co1.qualtrics.com/jfe/form/SV_0ApfrF7NFXJjv4q"
