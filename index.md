@@ -320,6 +320,8 @@ SURVEYS - DO NOT EDIT SURVEY LINKS
 {% endcomment %}
 <h2 id="surveys">Surveys</h2>
 <p>Please be sure to complete these surveys before and after the workshop.</p>
+<p><a href="https://ucsb.co1.qualtrics.com/jfe/form/SV_0ApfrF7NFXJjv4q">Pre-workshop Survey</a></p>
+<p><a href="https://ucsb.co1.qualtrics.com/jfe/form/SV_aWyWrg8p48irgO2">Post-workshop Survey</a></p>
 {% comment %}
 {% if site.carpentry == "incubator" %}
 <p><a href="{{ site.incubator_pre_survey }}">Pre-workshop Survey</a></p>
@@ -333,12 +335,9 @@ Please comment out the `incubator_pre_survey` and `incubator_post_survey` fields
 in `_config.yml` or, if this workshop is teaching a lesson in the Incubator,
 change the value of `carpentry` to `incubator`.
 </div>
-{% endcomment %}
 {% else %}
-<p><a href="https://ucsb.co1.qualtrics.com/jfe/form/SV_0ApfrF7NFXJjv4q">Pre-workshop Survey</a></p>
-<p><a href="https://ucsb.co1.qualtrics.com/jfe/form/SV_aWyWrg8p48irgO2">Post-workshop Survey</a></p>
 {% endif %}
-
+{% endcomment %}
 <hr/>
 
 
