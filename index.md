@@ -150,12 +150,10 @@ address.
   If you need a password or other information to access the training,
   the instructor will pass it on to you before the workshop.
 </p>
-{% elsif online == "true_private" %}
 <p id="where">
-  <strong>Where:</strong> This training will take place online.
-  The instructors will provide you with the information you will need to connect to this meeting.
+  <strong>Where:</strong>  This workshop will support in-person and remote, online attendace. If you register as an in-person attendeee, the workshop will take place at Davidson Library, UCEN Rd, Santa Barbara, CA. If you register as a remote attendeee, the instructors will provide you with the information you will need to connect to this meeting.
 </p>
-{% endif %}
+
 
 {% comment %}
 DATE
@@ -317,6 +315,7 @@ SURVEYS - DO NOT EDIT SURVEY LINKS
 {% endcomment %}
 <h2 id="surveys">Surveys</h2>
 <p>Please be sure to complete these surveys before and after the workshop.</p>
+{% comment %}
 {% if site.carpentry == "incubator" %}
 <p><a href="{{ site.incubator_pre_survey }}">Pre-workshop Survey</a></p>
 <p><a href="{{ site.incubator_post_survey }}">Post-workshop Survey</a></p>
@@ -329,9 +328,10 @@ Please comment out the `incubator_pre_survey` and `incubator_post_survey` fields
 in `_config.yml` or, if this workshop is teaching a lesson in the Incubator,
 change the value of `carpentry` to `incubator`.
 </div>
+{% endcomment %}
 {% else %}
-<p><a href="{{ site.pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
-<p><a href="{{ site.post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
+<p><a href="https://ucsb.co1.qualtrics.com/jfe/form/SV_0ApfrF7NFXJjv4q">Pre-workshop Survey</a></p>
+<p><a href="https://ucsb.co1.qualtrics.com/jfe/form/SV_aWyWrg8p48irgO2">Post-workshop Survey</a></p>
 {% endif %}
 
 <hr/>
@@ -398,6 +398,7 @@ please preview your site before committing, and make sure to run
 
 <h2 id="setup">Setup</h2>
 
+{% comment %}
 <p>
   To participate in a
   {% if site.carpentry == "swc" %}
@@ -411,6 +412,20 @@ please preview your site before committing, and make sure to run
   you will need access to software as described below.
   In addition, you will need an up-to-date web browser.
 </p>
+{% endcomment %}
+
+<p>
+  To participate in this workshop, you will need access to software as described on the <a href="https://ucsbcarpentry.github.io/twitter-with-twarc/setup.html"><strong>Setup Page</strong></a>.
+  In addition, you will need an up-to-date web browser.
+</p>
+<p>
+  We maintain a list of common issues that occur during installation as a reference for instructors
+  that may be useful on the
+  <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
+</p>
+
+{% include install_instructions/videoconferencing.html %}
+
 <p>
   We maintain a list of common issues that occur during installation as a reference for instructors
   that may be useful on the
