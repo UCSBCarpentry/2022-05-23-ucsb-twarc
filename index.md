@@ -205,7 +205,7 @@ special instructions.
 </p>
 <ul>
   <li>The room is wheelchair / scooter accessible.</li>
-  <li>Accessible restrooms are available.</li>
+  <li>Accessible and all-gender restrooms are nearby.</li>
 </ul>
 <p>
   Materials will be provided in advance of the workshop and
@@ -418,10 +418,14 @@ please preview your site before committing, and make sure to run
 </p>
 {% endcomment %}
 
-<p>
-  To participate in this workshop, you will need access to software as described on the <a href="https://ucsbcarpentry.github.io/twitter-with-twarc/setup.html"><strong>Setup Page</strong></a>.
-  In addition, you will need an up-to-date web browser.
+<p>Make sure to follow all of the <a href="https://ucsbcarpentry.github.io/twitter-with-twarc/setup.html"><strong>Twitter-related instructions on the Lesson Setup Page</strong></a>.
 </p>
+
+<p>
+Other than all your Twitter secret API keys and tokens, all you need to participate in this workshop 
+  is an up-to-date web browser and a text editor, such as Sublime Text. And Zoom if you are participating remotely.
+  </p>
+  
 <p>
   We maintain a list of common issues that occur during installation as a reference for instructors
   that may be useful on the
