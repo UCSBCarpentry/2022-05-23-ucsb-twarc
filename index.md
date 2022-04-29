@@ -134,22 +134,7 @@ address.
 {% else %}
 {% assign online = "false" %}
 {% endif %}
-{% if page.latitude and page.longitude and online == "false" %}
-<p id="where">
-  <strong>Where:</strong>
-  {{page.address}}.
-  Get directions with
-  <a href="//www.openstreetmap.org/?mlat={{page.latitude}}&mlon={{page.longitude}}&zoom=16">OpenStreetMap</a>
-  or
-  <a href="//maps.google.com/maps?q={{page.latitude}},{{page.longitude}}">Google Maps</a>.
-</p>
-{% elsif online == "true_public" %}
-<p id="where">
-  <strong>Where:</strong>
-  online at <a href="{{page.address}}">{{page.address}}</a>.
-  If you need a password or other information to access the training,
-  the instructor will pass it on to you before the workshop.
-</p>
+
 <p id="where">
   <strong>Where:</strong>  This workshop will support in-person and remote, online attendace. If you register as an in-person attendeee, the workshop will take place at Davidson Library, UCEN Rd, Santa Barbara, CA. If you register as a remote attendeee, the instructors will provide you with the information you will need to connect to this meeting.
 </p>
