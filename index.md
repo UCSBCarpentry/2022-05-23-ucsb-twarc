@@ -16,7 +16,7 @@ enddate: 2022-05-27        # machine-readable end date for the workshop in YYYY-
 instructor: ["Jon Jablonski", "Amanda Ho"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["Kristi Liu", "Amelia Meyer"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["library-collaboratory@ucsb.edu"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
-collaborative_notes:  https://pad.carpentries.org/2022-05-23-ucsb-twarc # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
+collaborative_notes:  https://pad.carpentries.org/2022-05-26-ucsb-twarc # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
 eventbrite: 304997715377   # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
 
@@ -418,13 +418,8 @@ please preview your site before committing, and make sure to run
 </p>
 {% endcomment %}
 
-<p>Make sure to follow all of the <a href="https://ucsbcarpentry.github.io/twitter-with-twarc/setup.html"><strong>Twitter-related instructions on the Lesson Setup Page</strong></a>.
+<p>Make sure to follow all of the Twitter-related instructions on the Twitter-related instructions on the <a href="https://ucsbcarpentry.github.io/twitter-with-twarc/setup.html"><strong>Lesson Setup Page</strong>. You will also need an up-to-date web browser. If you are participating remotely, please also have Zoom installed or updated.</a>.
 </p>
-
-<p>
-Other than all your Twitter secret API keys and tokens, all you need to participate in this workshop 
-  is an up-to-date web browser and a text editor, such as Sublime Text. And Zoom if you are participating remotely.
-  </p>
   
 <p>
   We maintain a list of common issues that occur during installation as a reference for instructors
