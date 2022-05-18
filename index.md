@@ -417,7 +417,7 @@ please preview your site before committing, and make sure to run
 </p>
 {% endcomment %}
 
-<p>Make sure to follow all of the Twitter-related instructions on the Twitter-related instructions on the <a href="https://ucsbcarpentry.github.io/twitter-with-twarc/setup.html"><strong>Lesson Setup Page</strong>. You will also need an up-to-date web browser. If you are participating remotely, please also have Zoom installed or updated.</a>.
+<p>Make sure to follow all of the Twitter-related instructions on the Twitter-related instructions on the <a href="https://ucsbcarpentry.github.io/twitter-with-twarc/setup.html"><strong>Lesson Setup Page</strong></a>. You will also need an up-to-date web browser. If you are participating remotely, please also have Zoom installed or updated.
 </p>
   
 <p>
