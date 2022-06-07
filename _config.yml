@@ -59,7 +59,7 @@ title: "Harvesting Twitter Data with twarc"
 # in The Carpentries Incubator).
 #
 # For an Incubator workshop, uncomment the line below and add the URL of the lesson site.
-incubator_lesson_site: "https://ucsb-collaboratory.github.io/twitter-with-twarc/"
+incubator_lesson_site: "https://carpentries-incubator.github.io/twitter-with-twarc/"
 #
 # For an Incubator workshop, uncomment the line below and add the URL of your pre-workshop survey
 incubator_pre_survey: "https://ucsb.co1.qualtrics.com/jfe/form/SV_0ApfrF7NFXJjv4q"
